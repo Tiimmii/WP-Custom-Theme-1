@@ -8,6 +8,7 @@ add_action('after_setup_theme', function() {
         'flex-height' => true,  // Allow flexible height
         'flex-width'  => true,  // Allow flexible width
     ));
+    add_theme_support('post-thumbnails');
 });
 
 function T_menus(){
