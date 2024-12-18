@@ -6,7 +6,9 @@
     <article class="content ml-10 px-3 py-5 p-md-5">
         <h1>Page Not Found</h1>
     </article>
-
+    <?php
+        get_search_form();
+    ?>
 </div>
 
 <?php
